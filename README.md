@@ -1,2 +1,2 @@
 # resume
-My Personal Webpage
+Zarul Zu Personal Webpage

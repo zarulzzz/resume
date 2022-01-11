@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<title>Welcome to Zarul Zu Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body> <body background="images/bg2.png">
+<audio controls autoplay>
+ <source src="music/ncs.mp3" type="audio/mpeg">
+ </audio>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="images/profile.png" style="width:45%;" class="w3-round"><br><br>
+    <h1><marquee behavior="alternate"><h4><b>ZARUL ZU WEBPAGE</b></h4></marquee></h1>
+    <p class="w3-text-grey"><font color="red">Zarul Zu © 2022</font></p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html" accesskey="1" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>HOME</a>
+    <a href="summary.html" accesskey="2" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>SUMMARY</a>
+    <a href="objective.html" accesskey="3" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>OBJECTIVE</a>
+    <a href="education.html" accesskey="4" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>EDUCATION</a>
+    <a href="curricular.html" accesskey="5" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>CURRICULAR</a>
+    <a href="skills.html" accesskey="6" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>SKILLS</a>
+    <a href="experiences.html" accesskey="7" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>EXPERIENCES</a>
+    <a href="achievements.html" accesskey="8" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>ACHIEVEMENTS</a>
+    <a href="references.html" accesskey="9" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>REFERENCES</a>
+  
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- References -->
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b><font color="blue">My References</font></b></h4>
+    <br>
+    <p align="justify">
+<img src="images/zafian.png" style="width:15%;" class="w3-round"><br><br>
+<ul>  
+<li>Ts. Mohd Zafian Bin Mohd Zawawi</li>
+<li>Basic Web Design And Content Management Lecturer UiTM Kelantan, Kota Bharu Campus.</li>
+</p>
+</div>
+<div class="w3-container w3-padding-large" style="margin-bottom:32px">
+<p align="justify">
+<img src="images/ruhani.png" style="width:15%;" class="w3-round"><br><br>
+<ul>  
+<li>Puan Ruhani Binti Muhamad</li>
+<li>Marketing Communication Lecturer UiTM Kelantan, Kota Bharu Campus.</li>
+<li>+60 19 978 7330</li>
+<li><a href="mailto:ruhani929@uitm.edu.my">ruhani929@uitm.edu.my</a>
+</p>
+</div>
+</li>
+<!-- Copyright -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Copyright by Zarul Zu © 2022</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
